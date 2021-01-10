@@ -2,19 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>crewlink</id>
-    <!-- version should MATCH as closely as possible with the underlying software -->
-    <version>1.2.1</version>
-    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
+    <version>1.0.0</version>
     <owners>mcdonagj</owners>
-    <title>crewlink (Install)</title>
+    <title>crewlink</title>
     <authors>ottomated</authors>
-    <projectUrl>https://github.com/ottomated/CrewLink</projectUrl>
-    <iconUrl>https://github.com/ottomated/CrewLink/raw/master/logo.png</iconUrl>
-    <projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>
+    <projectUrl>https://github.com/mcdonagj/choco-crewlink</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ottomated/CrewLink/master/logo.png</iconUrl>
+    <projectSourceUrl>https://github.com/ottomated/CrewLink</projectSourceUrl>
     <tags>crewlink amongus</tags>
     <summary>Free, open, Among Us proximity voice chat.</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <description>Chocolatey package for released versions of CrewLink.</description>
+    <releaseNotes>Package release 1.0.0 containing CrewLink release 1.0.0.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

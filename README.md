@@ -19,7 +19,7 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 ## Dev Instructions
 
 - Always pack after making any changes:
-- `choco pack`
+- `choco pack crewlink/crewlink.nuspec`
 
 ### Testing regular version
 
