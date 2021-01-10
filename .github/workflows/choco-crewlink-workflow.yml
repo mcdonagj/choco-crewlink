@@ -27,4 +27,4 @@ jobs:
       - name: Pack
         uses: crazy-max/ghaction-chocolatey@v1
         with:
-          args: pack
+          args: pack crewlink/crewlink.nuspec
