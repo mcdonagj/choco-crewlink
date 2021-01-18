@@ -23,11 +23,8 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 
 ### Testing regular version
 
-- Test package install:
-- `choco install crewlink -dv -s .`
-
-- Test package uninstall:
-- `choco uninstall crewlink -dv -s .`
+- Test package install: `choco install crewlink -dv -s .`
+- Test package uninstall: `choco uninstall crewlink -dv -s .`
 
 ### Pushing changes
 
