@@ -16,7 +16,7 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 - Install Chocolatey, see: <https://chocolatey.org/install>
 - Using `cmd` or `powershell`: `choco install crewlink`
 
-## Dev Instructions
+## Development Instructions
 
 - Bundle the package after making any changes using:
 - `choco pack crewlink/crewlink.nuspec`
