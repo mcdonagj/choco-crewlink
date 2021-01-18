@@ -4,26 +4,29 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 
 ## Version upgrade checklist
 
-- [ ] nuspec: update `version` tag.
-- [ ] nuspec: update `release notes` tag.
-- [ ] chocolateyinstall.ps1: update `$url` and `$url64`
-- [ ] chocolateyinstall.ps1: update the `checksum` and `checksum64`
-	- `"c:\ProgramData\chocolatey\tools\checksum.exe" <crewLink.exe> -t=sha256`
-	- The checksum `-t` depends on what you have specified in your `checksumType`
+- [ ] `crewlink.nuspec`: Update `version` tag.
+- [ ] `crewlink.nuspec`: Update `release notes` tag.
+- [ ] `chocolateyinstall.ps1`: Update `$url` and `$url64`.
+- [ ] `chocolateyinstall.ps1`: Update binary `checksum` and `checksum64`.
+	- Note: `"c:\ProgramData\chocolatey\tools\checksum.exe" <crewLink.exe> -t=sha256`.
+	- The checksum `-t` depends on what you have specified in your `checksumType`.
 
 ## Installation Instructions
 
-- Install [chocolatey](https://chocolatey.org/install)
-- From command line `choco install crewlink`
+- Install [chocolatey].(https://chocolatey.org/install)
+- Using `cmd` or `powershell`: `choco install crewlink`
 
 ## Dev Instructions
 
-- Always pack after making any changes:
+- Bundle the package after making any changes using:
 - `choco pack crewlink/crewlink.nuspec`
 
 ### Testing regular version
 
+- Test package install:
 - `choco install crewlink -dv -s .`
+
+- Test package uninstall:
 - `choco uninstall crewlink -dv -s .`
 
 ### Pushing changes
