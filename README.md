@@ -8,12 +8,12 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 - [ ] `crewlink.nuspec`: Update `release notes` tag.
 - [ ] `chocolateyinstall.ps1`: Update `$url` and `$url64`.
 - [ ] `chocolateyinstall.ps1`: Update binary `checksum` and `checksum64`.
-	- Note: `"c:\ProgramData\chocolatey\tools\checksum.exe" <crewLink.exe> -t=sha256`.
-	- The checksum `-t` depends on what you have specified in your `checksumType`.
+- Note: `"c:\ProgramData\chocolatey\tools\checksum.exe" <crewLink.exe> -t=sha256`.
+- The checksum `-t` depends on what you have specified in your `checksumType`.
 
 ## Installation Instructions
 
-- Install [chocolatey].(https://chocolatey.org/install)
+- Install Chocolatey, see: <https://chocolatey.org/install>
 - Using `cmd` or `powershell`: `choco install crewlink`
 
 ## Dev Instructions
@@ -31,5 +31,5 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 
 ### Pushing changes
 
-- `choco apikey --key <key> --source https://push.chocolatey.org` 
-- `choco push <package> --source https://push.chocolatey.org` 
+- `choco apikey --key <key> --source https://push.chocolatey.org`
+- `choco push <package> --source https://push.chocolatey.org`
