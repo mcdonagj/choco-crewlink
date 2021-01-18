@@ -21,12 +21,12 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 - Bundle the package after making any changes using:
 - `choco pack crewlink/crewlink.nuspec`
 
-### Testing regular version
+### Test Instructions
 
 - Test package install: `choco install crewlink -dv -s .`
 - Test package uninstall: `choco uninstall crewlink -dv -s .`
 
-### Pushing changes
+### Pushing Changes
 
 - `choco apikey --key <key> --source https://push.chocolatey.org`
 - `choco push <package> --source https://push.chocolatey.org`
