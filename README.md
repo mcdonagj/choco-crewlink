@@ -7,6 +7,7 @@ Chocolatey package for released versions of [CrewLink](https://github.com/ottoma
 - [ ] `crewlink.nuspec`: Update `version` tag.
 - [ ] `crewlink.nuspec`: Update `release notes` tag.
 - [ ] `chocolateyinstall.ps1`: Update `$url` and `$url64`.
+- [ ] `chocolateyinstall.ps1`: Update `$packageArgs` attribute: `softwareName`.
 - [ ] `chocolateyinstall.ps1`: Update binary `checksum` and `checksum64`.
 - Note: `"c:\ProgramData\chocolatey\tools\checksum.exe" <crewLink.exe> -t=sha256`.
 - The checksum `-t` depends on what you have specified in your `checksumType`.
