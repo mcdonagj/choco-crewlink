@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/ottomated/CrewLink/releases/download/v1.1.6/CrewLink-Setup-1.1.6.exe'
+$url        = 'https://github.com/ottomated/CrewLink/releases/download/v1.2.0/CrewLink-Setup-1.2.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   url64bit      = $url64
-  softwareName  = 'CrewLink 1.1.6'
-  checksum      = 'CC37A6C5870C8062A941C4D092DA0937'
+  softwareName  = 'CrewLink 1.2.0'
+  checksum      = '354C786CFAAD5757D66F938C576E2AD9'
   checksumType  = 'md5'
-  checksum64    = 'C3FF2B0E8846D18A1C781454D671AB03CE4715B4D3086CF3EF0E22844EF0652A'
+  checksum64    = 'BF976BB8204E77F79AEEC46854B577721CF20AC03CE33D69933C2B26827D5FCE'
   checksumType64= 'sha256'
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
