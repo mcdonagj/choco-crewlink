@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>crewlink</id>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <owners>mcdonagj</owners>
     <title>crewlink</title>
     <authors>ottomated</authors>
@@ -12,7 +12,7 @@
     <tags>crewlink amongus</tags>
     <summary>Free, open, Among Us proximity voice chat.</summary>
     <description>Chocolatey package for released versions of CrewLink.</description>
-    <releaseNotes>Package release 2.0.0 containing CrewLink release 2.0.0.</releaseNotes>
+    <releaseNotes>Package release 2.0.1 containing CrewLink release 2.0.1.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
